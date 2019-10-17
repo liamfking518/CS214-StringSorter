@@ -1,0 +1,102 @@
+Asst0: String Sorting
+Test Cases:
+
+Test Case #1:
+Input: ./stringsorter 
+Output:
+ERROR: expected one argument. found zero
+exiting gracefully...
+
+Test Case #2:
+Input: ./stringsorter hello there
+Output:
+ERROR: expected one argument. found 2
+exiting gracefully...
+
+Test Case #3:
+Input: ./stringsorter "hello there"
+Output: 
+hello
+there
+
+Test Case #4:
+Input: ./stringsorter "hello1there.class"
+Output: 
+class
+hello
+there
+
+Test Case #5:
+Input: ./stringsorter "hello1.1there.class   foo"
+Output: 
+class
+foo
+hello
+there
+
+Test Case #6:
+Input: ./stringsorter "hello1.1there.class   foo 11111.."
+Output: 
+class
+foo
+hello
+there
+
+Test Case #7:
+Input: ./stringsorter "heLLo hello helLo"
+Output:
+heLLO
+helLo
+hello
+
+Test Case #8:
+Input: ./stringsorter "heLLo11 ..hello.,   31helLo"
+Output:
+heLLO
+helLo
+hello
+
+Test Case #9:
+Input: ./stringsorter ""
+Output: (no output)
+
+Test Case #10:
+Input: ./stringsorter 1234.,.,53215.,
+Output: (no output)
+
+Test Case #11:
+Input: ./stringsorter "hello hello Hello apple"
+Output: 
+Hello
+apple
+hello
+hello
+
+Test Case #12:
+Input: ./stringsorter "hello hello Hello Apple"
+Output:
+Apple
+Hello
+hello
+hello
+
+Test Case #13:
+Input: ./stringsorter hello hello Hello Apple
+Output:
+ERROR: expected one argument. found 4
+exiting gracefully...
+
+Test Case #14:
+Input: ./stringsorter "123.....h hel hello"
+Output:
+h
+hel
+hello
+
+Test Case #15:
+Input: ./stringsorter "123.....h 123...,hel 3151...,,2343hello   hi"
+Output:
+h
+hel
+hello
+hi
